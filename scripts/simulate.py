@@ -11,7 +11,7 @@ from sklearn.model_selection import ParameterGrid
 from service.App import *
 from common.utils import *
 from common.model_store import *
-from common.backtesting import *
+from backtest.engine import *
 from common.classifiers import *
 from common.generators import generate_feature_set
 
